@@ -27,7 +27,7 @@ The configuration file is accessed to allow remote connections to MYSQL server u
 
 `sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf`
 
-I change Find the line that says bind-address = 127.0.0.1 and change it to bind-address = 0.0.0.0. This allows remote connections to the MySQL Server. 
+I change the line that says bind-address = 127.0.0.1 and change it to bind-address = 0.0.0.0. This allows remote connections to the MySQL Server. 
 
 ![change_address](./images/CLIENT_SERVER_ARCHITECTURE(MYSQL).PNG)
 
